@@ -1,0 +1,28 @@
+html {
+  text-align: center;
+}
+
+#first-section1 {
+  background-image: url('redfade.jpg');
+  color: cyan;
+}
+
+#first-section2 {
+  background-image: url('bluefade.jpg');
+  color: yellow;
+}
+
+.start {
+  background-image: url('greenfade.jpg');
+  color: red;
+}
+
+.hotel {
+  background-image: url('goldfade.jpg');
+  color: purple;
+}
+
+.home{
+  background-image: url('faded.png');
+  color: black;
+}

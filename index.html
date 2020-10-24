@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Choose Your Own Adventure</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <div id="first-section1">
+      <h1 id="intro-text">Home Isn't Safe</h1>
+      <h4 id="intro-text">An Interactive Choose Your Own Adventure Story</h4>
+    </div>
+    <div id="first-section2">
+      <div class="center-align container">
+        <h5 id="intro-text"><b>Click the Button to Begin</b></h5>
+        <button class="btn-large waves-effect waves-effect" onclick="start()"><b>Start</b></button>
+      </div>
+    </div>
+
+    <div class="scale-transition scale-out" id="part1">
+      <div class="center-align container">
+        <div class="start">
+          <img src="die.jpg">
+          <p>Tuesday. 12.34 pm. You receive a phone call from you mother while you are in school. "Your father has been infected with... <b>Pneumococcal Disease</b>," she says..."You can't come home, or you will be infected with the disease. I have already booked a room for you at Hotel Valhalla"</p>
+        <button class="btn-large waves-effect waves-effect" onclick="home1()" id="home1"><b>Go Home and See Your Father</b></button>
+        <button class="btn-large waves-effect waves-effect" onclick="hotel1()" id = "hotel1"><b>Go to the Hotel as Instructed by your Mother</b></button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="scale-transition scale-out" id="part21">
+      <div class="center-align container">
+        <div class="home">
+          <img src="hospitalised.jpg">
+          <p>You walk home and take the keys to your home out of your pocket. Slowly, you push the keys into the keyhole and turn it. You enter the house, to see your father lying on the bed, taking heavy breaths. You quickly walk away, thinking: Oh no!. A few days later, you find that you have caught the disease as well. Chances of survival: 0.01%. You pass away on March 2017, 7.44 am.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="scale-transition scale-out" id="part22">
+      <div class="center-align container">
+        <div class="hotel">
+          <p>You go to Hotel Valhalla. You lie down on the bed, hoping your father gets well.</p>
+        <button class="btn-large waves-effect waves-effect" onclick="home2()" id="home2"><b>Go home and see your father</b></button>
+        <button class="btn-large waves-effect waves-effect" onclick="hotel2()" id="hotel2"><b>Stay at the hotel</b></button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="scale-transition scale-out" id="part31">
+      <div class="center-align container">
+        <div class="home">
+          <img src="hospitalised.jpg">
+          <p>You walk home and take the keys to your home out of your pocket. Slowly, you push the keys into the keyhole and turn it. You enter the house, to see your father lying on the bed, taking heavy breaths. You quickly walk away, thinking: Oh no!. A few days later, you find that you have caught the disease as well. Chances of survival: 0.01%. You pass away on March 2017, 7.44 am.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="scale-transition scale-out" id="part32">
+      <div class="center-align container">
+        <div class="hotel">
+          <p>You live. Your parents live. The End</p>
+          <p>YAY!!!!!!!</p>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
